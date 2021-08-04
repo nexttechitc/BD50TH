@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Verify user can add item in cart",
+        "description": "",
+        "id": "home-page;verify-user-can-add-item-in-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2585573200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Open Application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefHomePage.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10245801000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click on addtocart",
+            "match": {
+              "location": "StepDefHomePage.click_on_addtocart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@TestTEst"
+          }
+        ]
+      }
+    ],
+    "name": "Home page",
+    "description": "",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "HomeBD.feature"
+  }
+]
